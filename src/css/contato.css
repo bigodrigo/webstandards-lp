@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+ /* A ideia era mudar o código para usar GAP, flex e alinhar os inputs no start e button no end! */
+
+body {
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    height: 402px;
+    background-image: url("../images/bg-repeat.jpg");
+    background-repeat: repeat-x;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.info {
+    width: 320px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.info h2 {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form {
+    width: 340px;
+    height: 378px;
+    margin: 12px auto;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+input, button, textarea {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form input, textarea {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 8px;
+    /* margin: 0; */
+}
+
+
+.form textarea.mensagem {
+    height: 100px;
+}
+
+.form p {
+    margin-top: -15px;
+    color: black;
+    text-align: right;
+}
+
+.form button {
+    background-color: #3CCC87;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.input-padrao {
+    border: solid 1px black;
+}
+
+
+.input-vazio {
+    border: solid 1px #F52E2E;
+    /* margin-bottom: 0; */
+}
+
+.label-error {
+    font-weight: 400;
+    font-size: 8px;
+    color: #F52E2E;
+    visibility: hidden;
+    // Poderia usar o lastchild para n sobrepor os campos obrigatórios!
+}
+
+.input-preenchido {
+    border: solid 1px #00C22B;
+}
+
+@media (max-width: 425px){
+    .info {
+        display: none
+    }
+    .container {
+        padding: 0 10px;
+    }
+}

@@ -1,6 +1,6 @@
-# HMTL + CSS Challenge / Landing Page
-## (Last Update) - 25/07/2023
-### This project is a milestone of a FullStack developer course, serving to reinforce foundational principles and then upload it to a GitHub repository.
+# Web Standards - Landing Page
+## (Last Update) - 11/11/2023
+### Este projeto foi realizado para .
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
