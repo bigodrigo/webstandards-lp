@@ -1,25 +1,35 @@
 # Web Standards - Landing Page
-## (Last Update) - 11/11/2023
-### Este projeto foi realizado para .
+## (Last Update) - 12/11/2023
+### Este projeto foi realizado para responder a PTI sobre Web Standards, a seção do contato redireciona para um formulário.
 
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>
 </p>
 
 The Project is currently accessible at:
-https://bigodrigo.github.io/landing-page/
+https://bigodrigo.github.io/webstandards-lp/
 
 ## 🚀 Technologies
 
-This project has been developed employing the following technologies:
+O projeto usa as seguintes tecnologias:
 
 - HTML and CSS
+- JS
 
 ## 💻 Project
 
-The Project forms a component of a series of challenges and milestones aimed at improvement throughout the course. Post-class, the students endeavour to independently replicate a particular task. In this instance, three simple exercises have been consolidated onto a single page and uploaded to GitHub.
+Elaborar uma página com pelo menos 05 seções falando sobre a empresa, os produtos/serviços oferecidos, as vantagens e
+benefícios, uma chamada para entrar em contato através de um formulário e outras informações que você identifica como essenciais para que o usuário. 
+
+Página responsiva para ser acessada pelo celular também. Você deve utilizar as Linguagens HTML, CSS e FLEXBOX para contemplar a tarefa.
+Essa PTI possui duas etapas:
+
+- Selecione um ramo de negócio de pequeno porte e realizar uma
+prototipação da página. A sugestão é escolher uma área para autônomos,
+como por exemplo: Pintor, Marceneiro, Psicólogo, Nutricionista, Personal, Artistas, Vendedores, Professor de Idioma, etc.
+- Implementar o site utilizando as linguagens HTML e CSS puros e aplicar técnicas de reprodução de layout responsivo.
 
 ## 🔖 Layout
 
@@ -34,8 +44,6 @@ The Project forms a component of a series of challenges and milestones aimed at 
     <img src="./design/tablet-layout.png">
 </div>
 
-## :thought_balloon: Noteworthy Observations:
+## :thought_balloon: Observação importante:
 
-- [ ] The Responsive Menu in Mobile and Tablet operates as a Dropdown created solely using CSS, without any JavaScript assistance.
-
-- [ ] The animations for the Menu and Arrow are compelling and may serve as inspiration for upcoming projects. It was a deliberate choice to make the Hero component relatively smaller in order to encourage users to scroll down and explore further.
+- [x] O formulário com campos responsívos está na seção do contato.
